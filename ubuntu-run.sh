@@ -9,3 +9,4 @@ git config --global user.email "adeilmazk@gmail.com"
 git clone https://github.com/akhilnarang/scripts
 echo "downloading more packages"
 bash scripts/setup/android_build_env.sh &>/dev/null
+git config --global color.ui true
