@@ -1,1 +1,2 @@
-echo this can run commands in terminal tho
+sudo apt update -y &>/dev/null
+sudo apt upgrade -y &>/dev/null
