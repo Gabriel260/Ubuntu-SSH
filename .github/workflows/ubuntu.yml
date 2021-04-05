@@ -16,6 +16,6 @@ jobs:
         key_file: id_ecdsa
     - uses: actions/checkout@v2
     # - uses: rokibhasansagar/slimhub_actions@main
-    # - run: source ubuntu-run.sh
+    - run: source ubuntu-run.sh
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@master
